@@ -1,0 +1,28 @@
+/* ? Todo Task */
+.todoTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  font-size: var(--step-1);
+  font-weight: 700;
+}
+.todoTaskSpan {
+  width: 150px;
+  max-width: calc(100% - 100px);
+  word-wrap: break-word; /* te amo chat gtp <3 */
+}
+.todoTaskButton {
+  width: 100px;
+  padding: 1rem;
+  border: none;
+  border-radius: 4rem;
+  background-color: var(--third-color);
+  color: var(--white-color);
+  font-size: var(--step-0);
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0rem 1rem var(--third-color);
+}
