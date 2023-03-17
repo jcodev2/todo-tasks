@@ -14,7 +14,7 @@ const Form = ({
     if (storedTodos) {
       setTodos(storedTodos)
     }
-  }, [])
+  }, [setTodos])
 
   useEffect(() => {
     if (todos.length > 0) {
